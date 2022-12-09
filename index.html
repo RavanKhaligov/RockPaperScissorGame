@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissor </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section>
+        <div class="right">
+            <p>Computer: <span class="computer">0</span></p>
+            <p>You: <span class="user">0</span></p>
+        </div>
+        <div class="flex">
+            <div class="flex flex-div">
+                <div onclick="check('rock')">
+                    <i class="far fa-hand-rock"></i>
+                </div>
+                <div onclick="check('paper')">
+                    <i class="far fa-hand-paper"></i>
+                </div>
+                <div onclick="check('scissor')">
+                    <i class="far fa-hand-scissors"></i>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <div class="result">You win</div>
+            <div class="choices">
+                <p class="computerChoice"></p>
+                <p class="yourChoice"></p>
+            </div>
+            <div>
+                <button type="reset" class="reset">Reset the game</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
